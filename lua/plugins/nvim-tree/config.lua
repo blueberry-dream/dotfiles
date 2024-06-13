@@ -7,4 +7,8 @@ return function(_, opts)
 
     local NvimTree = require("nvim-tree")
     NvimTree.setup()
+
+    -- setup mappings
+    require("core.utils").load_mappings("nvim_tree")
+
 end

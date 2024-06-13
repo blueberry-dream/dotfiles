@@ -103,4 +103,37 @@ M.general = {
 	},
 }
 
+M.nvim_tree = {
+    plugin = true,
+    -- insert mode
+    i = {},
+    -- normal mode
+    n = {
+        ["<leader>t"] = { ":NvimTreeFocus<CR>", "Open NvimTree", opts = { silent = true }},
+        ["<leader>T"] = { ":NvimTreeClose<CR>", "Close NvimTree", opts = {silent = true }},
+    },
+    -- visual mode
+    v = {},
+    -- terminal mode
+    t = {},
+    -- select mode
+    x = {}
+
+}
+
+M.template = {
+    plugin = true,
+    -- insert mode
+    i = {},
+    -- normal mode
+    n = {},
+    -- visual mode
+    v = {},
+    -- terminal mode
+    t = {},
+    -- select mode
+    x = {}
+
+}
+
 return M
