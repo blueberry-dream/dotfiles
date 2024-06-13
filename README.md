@@ -4,4 +4,6 @@ Here is a neovim config. So you can program the program you use to program while
 
 # TODO
 
-1. LSP
+1. CMP
+2. LSP
+3. Snippets
