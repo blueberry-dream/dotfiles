@@ -121,6 +121,21 @@ M.nvim_tree = {
 
 }
 
+M.telescope = {
+    plugin = true,
+    -- insert mode
+    i = {},
+    -- normal mode
+    n = {},
+    -- visual mode
+    v = {},
+    -- terminal mode
+    t = {},
+    -- select mode
+    x = {}
+
+}
+
 M.template = {
     plugin = true,
     -- insert mode
