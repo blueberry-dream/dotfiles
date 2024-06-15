@@ -115,7 +115,12 @@ local M = {
   --     "stevearc/conform.nvim",
   --     opts = require("plugins.conform.opts")
   -- }
-
+    {
+        "mfussenegger/nvim-jdtls"
+    },
+    {
+        "mfussenegger/nvim-dap"
+    }
 
 }
 
